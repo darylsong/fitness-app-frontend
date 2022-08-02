@@ -1,0 +1,58 @@
+.main-header {
+    position: sticky;
+	top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.main-header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding: 1em 1em;
+}
+
+.header-nav,
+.header-nav ul, 
+.header-nav li {
+	display: inline-block;
+}
+
+.header-nav button,
+.header-nav a,
+.header-logo a {
+	text-decoration: none;
+	color: black;
+    background-color: white;
+    display: inline-block;
+}
+
+.header-logo a {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.header-nav ul {
+	padding-inline-start: 0;
+	margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.header-nav button {
+    background-color: white;
+    height: auto;
+}
+
+.header-nav button,
+.header-nav a {
+	border: 1px solid grey;
+	padding: 0.5em;
+	margin: 0.25em;
+}
+
+.header-nav button:hover,
+.header-nav a:hover {
+	border: 1px solid black;
+	background-color: lightgrey;
+    cursor: pointer;
+}
